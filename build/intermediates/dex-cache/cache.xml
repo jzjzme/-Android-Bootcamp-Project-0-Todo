@@ -2,41 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_92da679132c8a527d81f9b1c785ad626ad64f001/classes.dex" />
-    </item>
-    <item
-        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="718744a00123870ece12f268765684fd4b8731bf">
-        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eea87dab0ec7812fef3e11db7c5a86314ed7c02e/classes.dex" />
-    </item>
-    <item
-        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_a02185c41daa16159515b2ffc8a79790e2d7902a/classes.dex" />
-    </item>
-    <item
-        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="2c978e79b946354ba530105c8a3efb35396790bd">
-        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_353eca883466cb513429dccf9f771d4df0760574/classes.dex" />
-    </item>
-    <item
-        jar="/Users/jackie_zhang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_9776760a4897d4925a396438eef6938068d1528f/classes.dex" />
-    </item>
-    <item
         jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
         jumboMode="true"
         revision="24.0.0"
@@ -51,6 +16,27 @@
         <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-2.4_db9d9c7f5dc9abc44c05f9a56b43532b2a4af315/classes.dex" />
     </item>
     <item
+        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_92da679132c8a527d81f9b1c785ad626ad64f001/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5b97dd1f41e533e605205c1e693fd34ed177648d">
+        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eea87dab0ec7812fef3e11db7c5a86314ed7c02e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_a02185c41daa16159515b2ffc8a79790e2d7902a/classes.dex" />
+    </item>
+    <item
         jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
         jumboMode="true"
         revision="24.0.0"
@@ -63,6 +49,20 @@
         revision="24.0.0"
         sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
         <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_beb8f14779bb88c5d655dc308dc0df1e0a424085/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2ce631906eed98f75242676d9e1da3825d568636">
+        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_353eca883466cb513429dccf9f771d4df0760574/classes.dex" />
+    </item>
+    <item
+        jar="/Users/jackie_zhang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_9776760a4897d4925a396438eef6938068d1528f/classes.dex" />
     </item>
 
 </items>

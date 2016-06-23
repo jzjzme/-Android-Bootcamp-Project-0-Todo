@@ -16,11 +16,11 @@ public class EditItemActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_item);
 
-        text= getIntent().getStringExtra("Text");
+        text= getIntent().getStringExtra("text");
         position= getIntent().getLongExtra("position", 0);
-        EditText editText = (EditText) findViewById(R.id.editText);
-        editText.setText(text);
-        editText.setSelection(editText.getText().length());
+        etNewItem = (EditText) findViewById(R.id.etNewItem);
+        etNewItem.setText(text);
+        etNewItem.setSelection(etNewItem.getText().length());
     }
 
     public void onSavedItem(View v) {

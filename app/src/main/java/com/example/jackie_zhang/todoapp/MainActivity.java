@@ -45,6 +45,20 @@ public class MainActivity extends AppCompatActivity {
         writeItems();
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        String text = "";
+        long position = 0;
+        if (resultCode == RESULT_OK && requestCode == REQUEST_CODE){
+            text = data.getExtras().getString("text");
+            position = data.getExtras().getLong("(position");
+            items.set((int)position,text);
+            itemsAdapter.notifyDataSetChanged();
+            writeItems();
+        }
+
+    }
+
     private void setupListViewListener(){
         lvItems.setOnItemLongClickListener(
                 new AdapterView.OnItemLongClickListener() {
@@ -64,16 +78,17 @@ public class MainActivity extends AppCompatActivity {
         lvItems.setOnItemClickListener(
                 new AdapterView.OnItemClickListener(){
                     @Override
-                    public void OnItemClick(AdapterView<?> adapterView, View item, int pos, long id) {
+                    public void onItemClick(AdapterView<?> adapterView,
+                                            View item, int pos, long id) {
                         Intent i = new Intent(MainActivity.this,EditItemActivity.class);
-                        i.putExtra("position",id);
-                        i.putExtra("Text", items.get((int)id));
-                        startActivity(i, REQUEST_CODE);
+                        i.putExtra("position",pos);
+                        i.putExtra("Text", items.get((int)pos));
+                        startActivityForResult(i, REQUEST_CODE);
                     }
-
                 }
         );
     }
+
     private void readItems(){
         File filesDir = getFilesDir();
         File todoFile = new File(filesDir, "todo.txt");
