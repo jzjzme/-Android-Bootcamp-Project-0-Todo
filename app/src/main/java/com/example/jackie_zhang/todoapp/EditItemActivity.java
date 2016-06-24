@@ -23,11 +23,12 @@ public class EditItemActivity extends AppCompatActivity {
         etNewItem.setSelection(etNewItem.getText().length());
     }
 
-    public void onSavedItem(View v) {
-        Intent data = new Intent();
+    public void onSavedItem(View view) {
+
         text = etNewItem.getText().toString();
-        data.putExtra("text", text);
-        data.putExtra("position",position );
+        Intent data = new Intent();
+        data.putExtra("text",text);
+        data.putExtra("position",position);
         setResult(RESULT_OK,data);
         this.finish();
     }
