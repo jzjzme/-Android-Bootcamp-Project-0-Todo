@@ -26,7 +26,7 @@
         jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="5dd1c643e69518cf07c52a0c88d65a60992cdc46">
+        sha1="960d83edb2e1d2b807b0e0edd37ba91637250a7f">
         <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eea87dab0ec7812fef3e11db7c5a86314ed7c02e/classes.dex" />
     </item>
     <item
@@ -54,7 +54,7 @@
         jar="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="340e62032e5c38b24475282c6035a93a684a3714">
+        sha1="4ad8a0497e1a1ed518fb4629eed8a2940a8ab684">
         <dex dex="/Users/jackie_zhang/Documents/androidWork/-Android-Bootcamp-Project-0-Todo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_353eca883466cb513429dccf9f771d4df0760574/classes.dex" />
     </item>
     <item

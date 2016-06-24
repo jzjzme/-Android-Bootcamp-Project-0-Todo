@@ -7,17 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jackie_zhang.todoapp.EditItemActivity">
+    tools:context="com.example.jackie_zhang.todoapp.EditItemActivity"
+    android:background="#eed8ce">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Edit Item Below"
+        android:text="Edit Item  Description Below"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        android:enabled="true"
+        android:textSize="25dp"
+        android:textColor="#1d1d1d" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -25,9 +28,12 @@
         android:inputType="textMultiLine"
         android:ems="10"
         android:id="@+id/etNewItem"
+        android:background="#e4adad"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,7 +41,11 @@
         android:text="Save"
         android:onClick="onSavedItem"
         android:id="@+id/saveEditItem"
+        android:src="@android:drawable/ic_menu_save"
+        android:background="#043599"
         android:layout_below="@+id/etNewItem"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="#ffffff" />
+
 </RelativeLayout>
